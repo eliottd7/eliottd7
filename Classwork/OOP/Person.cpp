@@ -1,3 +1,7 @@
+/*
+    A very simplistic example of a custom class.
+*/
+
 #include "Person.h"
 #include <string>
 #include <iostream>
