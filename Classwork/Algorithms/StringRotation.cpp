@@ -1,3 +1,8 @@
+/*
+    This algorithm accepts a list of strings and returns (via console) the strings that are
+    rotations of each other. For example, "abba" and "bccb" are rotations by a factor of 1.
+*/
+
 #include <iostream>
 #include <string>
 #include <cstring>
