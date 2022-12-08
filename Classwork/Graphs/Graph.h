@@ -48,17 +48,6 @@ public:
         followed by the weight, and separated by spaces.
        Returns the constructed graph. */
     void generateGraph(std::string fileName);
-    
-    /* Identifies and prints, for each vertex of the input graph, the minimum label vertex that is reachable from it.
-     From graph.txt, it should print out the results in the following format:
-     The lowest reachable vertex for 0 is 1
-     The lowest reachable vertex for 1 is 3
-     The lowest reachable vertex for 2 is 1
-     The lowest reachable vertex for 3 is 1
-     The lowest reachable vertex for 4 is 1
-     The lowest reachable vertex for 5 doesn't exist */
-    void lowestReachable();
-    
 
 private:
     std::set<int> vertices;              /* The set of vertices of the graph */
