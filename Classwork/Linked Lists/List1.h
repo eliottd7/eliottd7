@@ -1,3 +1,7 @@
+/*
+    A barebones linked list implementation fully contained within this .h file.
+*/
+
 #ifndef LIST_H
 #define LIST_H
 #include "Node.h"
