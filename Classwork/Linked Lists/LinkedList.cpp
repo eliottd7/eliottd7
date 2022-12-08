@@ -1,3 +1,7 @@
+/*
+  A more robust doubly linked list class specifically designed for integers
+*/
+
 #include "LinkedList.h"
 #include <iostream>
 
