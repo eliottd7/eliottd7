@@ -13,6 +13,13 @@ typedef std::pair<int, int> directedEdge;
 
 /* Implements a directed, weighted graph, where vertices can have color */
 class Graph {
+private:
+    std::set<int> vertices;              /* The set of vertices of the graph */
+    std::set<directedEdge> edges;        /* the set of edges of the graph */
+    std::map<directedEdge, int> weights; /* A mapping between edges and their weights */
+    std::vector<std::set<int>> adjList;       /* a vector of vectors to represent an adjacency list */
+    int numVertices;                /* Number of vertices in graph */
+    int numEdges;                   /* Number of edges in graph */
     
 public:
     /* Constructs a graph with no edges or vertices */
@@ -48,14 +55,6 @@ public:
         followed by the weight, and separated by spaces.
        Returns the constructed graph. */
     void generateGraph(std::string fileName);
-
-private:
-    std::set<int> vertices;              /* The set of vertices of the graph */
-    std::set<directedEdge> edges;        /* the set of edges of the graph */
-    std::map<directedEdge, int> weights; /* A mapping between edges and their weights */
-    std::vector<std::set<int>> adjList;       /* a vector of vectors to represent an adjacency list */
-    int numVertices;                /* Number of vertices in graph */
-    int numEdges;                   /* Number of edges in graph */
 };
 
 #endif /* Graph_h */
