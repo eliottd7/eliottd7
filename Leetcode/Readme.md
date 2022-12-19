@@ -3,6 +3,9 @@
 ### 2. Add Two Numbers
 - Add two numbers in the form of reverse-order **linked lists**.
 
+### 4. Median of Two Sorted Arrays
+- Given two sorted arrays of integers, of lengths m and n, return the median between them, with a runtime complexity at least O(log(m+n))
+
 ### 12. Integer to Roman
 - Convert an integer into Roman Numerals.
 
