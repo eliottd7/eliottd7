@@ -12,4 +12,4 @@ Please also visit my LinkedIn at https://www.linkedin.com/in/eliott-dinfotan
 
 > Personal: Examples of things I have worked on for myself
 
-*All content within is copyright (C) Eliott Dinfotan and/or affiliates.*
+*All content within is copyright (C) Eliott Dinfotan and/or affiliates. Please do not copy or redistribute without permission.*
